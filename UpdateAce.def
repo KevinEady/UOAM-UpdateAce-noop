@@ -1,0 +1,25 @@
+LIBRARY   UpdateAce
+EXPORTS
+	DllCanUnloadNow     @1
+	DllGetClassObject       @2
+	DllRegisterServer       @3
+	DllUnregisterServer     @4
+	UA_Initialize       @5
+	UA_QueueKnownFileInfo       @6
+	UA_GetNewsAndUpdateInfo     @7
+	UA_WaitForContinueButton        @8
+	UA_GetUpdateFileCount       @9
+	UA_GetUpdateFileInfo        @10
+	UA_GetLocalFileVersion      @11
+	UA_QueueFileToDownload      @12
+	UA_DownloadQueuedFiles      @13
+	UA_GetDownloadedFileCount       @14
+	UA_GetDownloadedFileInfo        @15
+	UA_SaveDownloadedFile       @16
+	UA_ExitAndSave      @17
+	UA_Uninitialize     @18
+	UA_OpenURL      @19
+	UA_SetStatusText        @20
+	UA_GetServerDate        @21
+	UA_GetMD5Digest     @22
+	UA_GetMD5Digest2        @23
